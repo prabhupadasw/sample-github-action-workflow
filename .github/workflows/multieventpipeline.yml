@@ -15,4 +15,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:  #steps to be excuted in the job
             - name: "Runing on master push" #step no 1
-              run: echo "Rununing in  master push"
+              run: echo "Rununing in  master/test  push"
