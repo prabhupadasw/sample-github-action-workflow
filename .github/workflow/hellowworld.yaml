@@ -1,17 +1,20 @@
-name: "hellow world workflow"
-#control when the auction will run .
-#trigger the work flow on push sone master or production branch
+name: "Hello World Workflow"
+# Control when the auction will run.
+# Trigger the workflow on push to master or production branch
 on:
   push:
     branches:
-     - master
-     - production
+      - master
+      - production
 
 jobs:
   hello_world:
     runs-on: ubuntu-latest
     steps:
-      - name: "print hellow world"
-        run : "date"
+      - name: "Print Hello World"
+        run: "echo Hello World"
+      - name: "Show Current Date"
+        run: "date"
+
          
 
