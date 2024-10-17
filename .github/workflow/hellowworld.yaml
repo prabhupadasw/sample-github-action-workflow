@@ -1,0 +1,17 @@
+name: "hellow world workflow"
+#control when the auction will run .
+#trigger the work flow on push sone master or production branch
+on:
+  push:
+    branches:
+     - master
+     - production
+
+jobs:
+  hello_world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "print hellow world"
+        run : echo "hellow world"
+         
+
