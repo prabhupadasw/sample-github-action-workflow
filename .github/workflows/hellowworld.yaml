@@ -1,5 +1,5 @@
 name: "Hello World Workflow"
-# Control when the auction will run.
+# Control when the action will run.
 # Trigger the workflow on push to master or production branch
 on:
   push:
@@ -15,5 +15,4 @@ jobs:
         run: "echo Hello World"
       - name: "Show Current Date"
         run: "date"
-         
 
